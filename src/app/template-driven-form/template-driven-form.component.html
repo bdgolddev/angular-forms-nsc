@@ -1,0 +1,12 @@
+<div class="win">
+    <form #loginForm="ngForm" (ngSubmit)=userLoggedIn(loginForm.value) class="form-style" >
+        <h3 >Template Driven Form</h3>
+        <input class="input-style" ngModel type="text" name="username" placeholder="@username" id="username">
+        <input class="input-style" ngModel type="password" name="password" placeholder="password" id="password">
+        <input type="checkbox" id="passwordShow">
+        <label for="passwordShow"> Show Password</label>
+        <button class="btn-style" type="submit">Login</button>
+    </form>
+</div>
+
+

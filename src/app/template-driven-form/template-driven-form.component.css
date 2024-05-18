@@ -1,0 +1,37 @@
+.win{
+    width: 500px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+}
+.form-style{
+    width: 480px;
+    margin: 0 auto;
+    padding: 30px 30px 50px 30px;
+}
+.input-style{
+    width: 100%;
+    margin: 12px 0;
+    font-size: 20px;
+    padding: 10px 15px;
+    outline: none;
+}
+.btn-style{
+    width: 100%;
+    margin: 12px auto;
+    font-size: 20px;
+    padding: 10px 15px;
+    outline: none;
+    background-color: rgb(0, 165, 22);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+
+}.btn-style:hover{
+    letter-spacing: 2px;
+    background-color: rgb(8, 129, 24);
+}
+#passwordShow{
+    width: px;
+}

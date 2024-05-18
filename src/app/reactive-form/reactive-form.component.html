@@ -1,0 +1,30 @@
+<div class="win">
+  <form [formGroup]="regForm" class="form-style" (ngSubmit)="userRegister()">
+    <h3>Reactive Form</h3>
+    <input
+      class="input-style"
+      type="text"
+      formControlName="firstName"
+      name="firstName"
+      placeholder="First Name"
+      id="username"
+    />
+    <input
+      class="input-style"
+      type="text"
+      formControlName="lastName"
+      name="lastName"
+      placeholder="Last Name"
+      id="username"
+    />
+    <input
+      class="input-style"
+      type="number"
+      formControlName="phone"
+      name="phone"
+      placeholder="Phone"
+      id="username"
+    />
+    <button class="btn-style" type="submit">Register</button>
+  </form>
+</div>

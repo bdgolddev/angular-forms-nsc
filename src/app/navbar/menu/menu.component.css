@@ -1,0 +1,15 @@
+.menu-list{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.item-list{
+    list-style-type: none;
+}
+.menu-item{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+}.menu-item:hover{
+    background-color: rgb(13, 74, 85);
+}
